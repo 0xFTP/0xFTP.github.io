@@ -227,40 +227,9 @@
 			border-color: #913fe2;
 		}
 	</style>
-	<script type="text/javascript">
-		var sf_templates = "<a href=\"{search_url_escaped}\">View All Results<\/a>";
-		var sf_position = '0';
-		var sf_input = '.search-live';
-		jQuery(document).ready(function () {
-			jQuery(sf_input).ajaxyLiveSearch({
-				"expand": false,
-				"searchUrl": "https:\/\/0xftp.github.io\/?s=%s",
-				"text": "Search",
-				"delay": 500,
-				"iwidth": 180,
-				"width": 350,
-				"ajaxUrl": "#",
-				"rtl": 0
-			});
-			jQuery(".live-search_ajaxy-selective-input").keyup(function () {
-				var width = jQuery(this).val().length * 8;
-				if (width < 50) {
-					width = 50;
-				}
-				jQuery(this).width(width);
-			});
-			jQuery(".live-search_ajaxy-selective-search").click(function () {
-				jQuery(this).find(".live-search_ajaxy-selective-input").focus();
-			});
-			jQuery(".live-search_ajaxy-selective-close").click(function () {
-				jQuery(this).parent().remove();
-			});
-		});
-	</script>
 	<link rel="icon" href="wp-content/uploads/2024/06/cropped-Asura-Icon.png-32x32.webp" sizes="32x32" />
 	<link rel="icon" href="wp-content/uploads/2024/06/cropped-Asura-Icon.png-192x192.webp" sizes="192x192" />
 	<link rel="apple-touch-icon" href="wp-content/uploads/2024/06/cropped-Asura-Icon.png-180x180.webp" />
-	<meta name="msapplication-TileImage" content="https://0xftp.github.io/wp-content/uploads/2024/06/cropped-Asura-Icon.png-270x270.webp" />
 	<style type="text/css" id="wp-custom-css">
 		@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
 
@@ -1096,10 +1065,6 @@
 			color: #bd8bed !important;
 		}
 
-
-
-
-
 		.um-center .um-button {
 			width: 320px !important;
 			background-color: #282355 !important;
@@ -1111,7 +1076,6 @@
 
 		}
 
-
 		.boookmark {
 			text-align: center;
 			background: black;
@@ -1122,11 +1086,6 @@
 			cursor: pointer;
 			font-weight: 600;
 		}
-
-
-
-
-
 
 		.lazy-loaded {
 			opacity: 0;
@@ -1151,8 +1110,6 @@
 			text-transform: lowercase;
 			font-weight: 600;
 		}
-
-
 
 		/* Modal Styles */
 		.modal {
@@ -1221,8 +1178,6 @@
 		#report-issue-form button:hover {
 			background-color: #1c91c0;
 		}
-
-
 
 		.modal {
 			display: none;
@@ -1293,8 +1248,6 @@
 			background-color: #1c91c0;
 		}
 
-
-
 		.spinner {
 			border: 4px solid rgba(255, 255, 255, 0.3);
 			border-radius: 50%;
@@ -1343,9 +1296,9 @@
 				<header role="banner" itemscope itemtype="http://schema.org/WPHeader">
 					<div class="site-branding logox">
 						<span class="logos">
-							<a title="Asura Scans – Read Comics Online Free - Read the best comics, manga, manhwa and manhua at AsuraScans, with our fast updated scalation, best translation, highest quality and fully synthesized 24h free." itemprop="url" href="index.html"><img src="wp-content/uploads/2024/06/cropped-Asura-Icon.png.webp" width="195" height="50" alt="Asura Scans – Read Comics Online Free - Read the best comics, manga, manhwa and manhua at AsuraScans, with our fast updated scalation, best translation, highest quality and fully synthesized 24h free."><span class="hdl">Asura Scans – Read Comics Online Free</span></a>
+							<a title="0xFTP" itemprop="url" href="index.html"><img src="wp-content/uploads/2024/06/cropped-Asura-Icon.png.webp" width="195" height="50" alt="0xFTP"><span class="hdl">0xFTP</span></a>
 						</span>
-						<meta itemprop="name" content="Asura Scans – Read Comics Online Free" />
+						<meta itemprop="name" content="0xFTP" />
 					</div>
 				</header>
 
@@ -1353,10 +1306,16 @@
 					<span itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
 						<ul id="menu-header" class="menu">
 							<li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-25"><a href="index.html" aria-current="page" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-home" aria-hidden="true" style="font-size:1.3em;"></i> Home</span></a></li>
-							<li id="menu-item-26" class="menu-item menu-item-type-post_type_archive menu-item-object-manga menu-item-26"><a href="manga/index.html" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-book" aria-hidden="true" style="font-size:1.23em;"></i> Series</span></a></li>
-							<li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="#" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-ghost" aria-hidden="true" style="font-size:1.3em;"></i> ASURA Meusem</span></a></li>
-							<li id="menu-item-59" class="menu-item menu-item-type-post_type_archive menu-item-object-blog menu-item-59"><a href="blog/index.html" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-eye" aria-hidden="true" style="font-size:1.3em;"></i> Informative</span></a></li>
-							<li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a href="#" itemprop="url"><span itemprop="name">Account</span></a></li>
+
+							<li id="menu-item-26" class="menu-item menu-item-type-post_type_archive menu-item-object-manga menu-item-26"><a href="index.html" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-book" aria-hidden="true" style="font-size:1.23em;"></i> Manhwa</span></a></li>
+
+							<li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="index.html" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-ghost" aria-hidden="true" style="font-size:1.3em;"></i> Manga</span></a></li>
+
+							<li id="menu-item-59" class="menu-item menu-item-type-post_type_archive menu-item-object-blog menu-item-59"><a href="index.html" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-eye" aria-hidden="true" style="font-size:1.3em;"></i> Anime</span></a></li>
+
+							<li id="menu-item-28" class="menu-item menu-item-type-post_type_archive menu-item-object-blog menu-item-28"><a href="index.html" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-film" aria-hidden="true" style="font-size:1.3em;"></i> Movies</span></a></li>
+
+							<li id="menu-item-28" class="menu-item menu-item-type-post_type_archive menu-item-object-blog menu-item-28"><a href="index.html" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-ban" aria-hidden="true" style="font-size:1.3em;"></i> 18+</span></a></li>
 						</ul>
 					</span>
 					<div class="clear"></div>
@@ -1810,24 +1769,16 @@
 						</ul>
 					</div>
 				</div>
-				<div class="footercopyright">
-					<div class="sosmedmrgn"></div>
-					<div class="copyright">
-						<div class="txt">
-							<p>All the comics on this website are only previews of the original comics, there may be many language errors, character names, and story lines. For the original version, please buy the comic if it's available in your city.</p>
-						</div>
-					</div>
-				</div>
 			</footer>
 		</div>
 		<!-- ----- footer end here ----- -->
 	</div>
 	<span class="scrollToTop"><span class="fas fa-angle-up"></span></span>
-	<!-- <script>
+	<script>
 		ts_darkmode.listen();
-	</script> -->
+	</script>
 
-	<!-- <script>
+	<script>
 		jQuery.event.special.touchstart = {
 			setup: function (_, ns, handle) {
 				this.addEventListener("touchstart", handle, {
@@ -1856,7 +1807,7 @@
 				});
 			}
 		};
-	</script> -->
+	</script>
 	<link rel='stylesheet' id='fontawesome-css' href='wp-content/themes/mangareader/assets/css/font-awesome.mincc91.css?ver=2.1.8' type='text/css' media='all' />
 	<link rel='stylesheet' id='owl-carousel-css' href='wp-content/themes/mangareader/assets/css/owl.carouselcc91.css?ver=2.1.8' type='text/css' media='all' />
 	<script type="text/javascript" src="wp-content/themes/mangareader/assets/js/filtercc91.js?ver=2.1.8" id="filter-js"></script>
