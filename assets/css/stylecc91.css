@@ -541,7 +541,7 @@ header {
 }
 
 .hotslid .trending .tdb .crown {
-    background-image: url(assets/images/crown.png);
+    background-image: url(images/crown.png);
     background-size: 100%;
     position: absolute;
     right: 5px;
@@ -579,7 +579,7 @@ header {
 
 .hotslid .trending .tdb .textbg.blxc {
     color: #eee;
-    background: url(assets/images/black.png)
+    background: url(images/black.png)
 }
 
 .hotslid .trending .tdb .textbg .bghover {
@@ -1549,15 +1549,15 @@ header {
 }
 
 .bs .bsx .limit .type.Manga,.listupd .utao.styletwo .uta .imgu .type.Manga,.stylesven .sveninner .sventop .sveninfo .svendetop .svenmeta .type.Manga {
-    background-image: url(assets/images/manga.png)
+    background-image: url(images/manga.png)
 }
 
 .bs .bsx .limit .type.Manhua,.listupd .utao.styletwo .uta .imgu .type.Manhua,.stylesven .sveninner .sventop .sveninfo .svendetop .svenmeta .type.Manhua {
-    background-image: url(assets/images/manhua.png)
+    background-image: url(images/manhua.png)
 }
 
 .bs .bsx .limit .type.Manhwa,.listupd .utao.styletwo .uta .imgu .type.Manhwa,.stylesven .sveninner .sventop .sveninfo .svendetop .svenmeta .type.Manhwa {
-    background-image: url(assets/images/manhwa.png)
+    background-image: url(images/manhwa.png)
 }
 
 .typename {
@@ -4801,7 +4801,7 @@ img.curdown {
 }
 
 .serieslist.pop ul li.topone .limit .shadow {
-    background-image: url(assets/images/pattern.png)!important;
+    background-image: url(images/pattern.png)!important;
     background-color: rgba(40,119,182,0.28)!important;
     z-index: 1;
     position: absolute;
@@ -4818,7 +4818,7 @@ img.curdown {
     padding: 10px 15px;
     padding-top: 30px;
     padding-left: 55px;
-    background: url(assets/images/item-shadow.png) top center repeat
+    background: url(images/item-shadow.png) top center repeat
 }
 
 .serieslist.pop ul li.topone .limit .bw .ctr {
