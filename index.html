@@ -15,19 +15,20 @@
 	<link rel='stylesheet' id='post-views-counter-frontend-css' href='wp-content/plugins/post-views-counter/css/frontend.min6dbf.css?ver=1.4.7' type='text/css' media='all' />
 	<link rel='stylesheet' id='style-css' href='wp-content/themes/mangareader/stylecc91.css?ver=2.1.8' type='text/css' media='all' />
 	<link rel='stylesheet' id='lightstyle-css' href='wp-content/themes/mangareader/assets/css/lightmodecc91.css?ver=2.1.8' type='text/css' media='all' />
-	<link rel='stylesheet' id='swiper-css' href='assets/Swiper/4.5.1/css/swiper.min8686.css?ver=4.5.1' type='text/css' media='all' />
 	<script type="text/javascript" src="wp-content/themes/mangareader/assets/js/jquery.min9d52.js?ver=3.5.1" id="jquery-js"></script>
 	<script type="text/javascript" src="wp-content/themes/mangareader/assets/js/bookmarkcc91.js?ver=2.1.8" id="bookmarks_script-js"></script>
 	<script type="text/javascript" src="wp-content/themes/mangareader/assets/js/historycc91.js?ver=2.1.8" id="history_script-js"></script>
 	<script type="text/javascript" src="wp-content/themes/mangareader/assets/js/functioncc91.js?ver=2.1.8" id="tsfn_scripts-js"></script>
 	<script type="text/javascript" src="wp-content/themes/mangareader/assets/js/tabscc91.js?ver=2.1.8" id="tabs-js"></script>
 	<link rel="https://api.w.org/" href="wp-json/index.html" />
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+	<!-- for f12 disable  -->
+	<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
 	<meta name="generator" content="WordPress 6.6.1" />
 	<meta name="generator" content="performance-lab 3.4.0; plugins: ">
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+	<!-- for detect mobile or desktop -->
 	<script>
 		$(document).ready(function () {
 			$(".shme").click(function () {
@@ -38,6 +39,7 @@
 			});
 		});
 	</script>
+	<!-- for arrow to move page to top -->
 	<script type="text/javascript">
 		$(document).ready(function () {
 
@@ -227,9 +229,9 @@
 			border-color: #913fe2;
 		}
 	</style>
-	<link rel="icon" href="wp-content/uploads/2024/06/cropped-Asura-Icon.png-32x32.webp" sizes="32x32" />
-	<link rel="icon" href="wp-content/uploads/2024/06/cropped-Asura-Icon.png-192x192.webp" sizes="192x192" />
-	<link rel="apple-touch-icon" href="wp-content/uploads/2024/06/cropped-Asura-Icon.png-180x180.webp" />
+	<link rel="icon" href="assets/images/intruder.png" sizes="32x32" />
+	<link rel="icon" href="assets/images/intruder.png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="assets/images/intruder.png" />
 	<style type="text/css" id="wp-custom-css">
 		@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
 
@@ -1296,7 +1298,7 @@
 				<header role="banner" itemscope itemtype="http://schema.org/WPHeader">
 					<div class="site-branding logox">
 						<span class="logos">
-							<a title="0xFTP" itemprop="url" href="index.html"><img src="wp-content/uploads/2024/06/cropped-Asura-Icon.png.webp" width="195" height="50" alt="0xFTP"><span class="hdl">0xFTP</span></a>
+							<a title="0xFTP" itemprop="url" href="index.html"><img src="assets/images/intruder.png" width="195" height="50" alt="0xFTP"><span class="hdl">0xFTP</span></a>
 						</span>
 						<meta itemprop="name" content="0xFTP" />
 					</div>
@@ -1315,47 +1317,10 @@
 
 							<li id="menu-item-28" class="menu-item menu-item-type-post_type_archive menu-item-object-blog menu-item-28"><a href="index.html" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-film" aria-hidden="true" style="font-size:1.3em;"></i> Movies</span></a></li>
 
-							<!-- <li id="menu-item-28" class="menu-item menu-item-type-post_type_archive menu-item-object-blog menu-item-28"><a href="#" onclick="checkPassword(event)" itemprop="url"><span itemprop="name"><i class="_mi _before fa fa-ban" aria-hidden="true" style="font-size:1.3em;"></i> 18+</span></a></li> -->
 						</ul>
 					</span>
 					<div class="clear"></div>
 				</nav>
-				<!-- <script>
-					if (localStorage.getItem("thememode") == null) {
-						if (defaultTheme == "lightmode") {
-							jQuery("#thememode input[type='checkbox']").prop('checked', false);
-						} else {
-							jQuery("#thememode input[type='checkbox']").prop('checked', true);
-						}
-					} else if (localStorage.getItem("thememode") == "lightmode") {
-						jQuery("#thememode input[type='checkbox']").prop('checked', false);
-					} else {
-						jQuery("#thememode input[type='checkbox']").prop('checked', true);
-					}
-				</script>
-				<div id="password-prompt" style="display:none;">
-					<form id="password-form" onsubmit="return validatePassword()">
-						<label for="password">Enter password:</label>
-						<input type="password" id="password" name="password" required>
-						<input type="submit" value="Submit">
-						<p id="error-message" style="color: red; display: none;">Incorrect password. Please try again.</p>
-					</form>
-				</div>
-				<script>
-					const correctPassword = '@0xFTP';
-					function checkPassword(event) {
-					event.preventDefault(); 
-					document.getElementById('password-prompt').style.display = 'block';}
-					function validatePassword() {
-						const enteredPassword = document.getElementById('password').value;
-						if (enteredPassword === correctPassword) {
-							window.location.href = 'index.html';
-						} else {
-							document.getElementById('error-message').style.display = 'block';
-						}
-						return false; // Prevent form submission
-					}
-				</script> -->
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -1392,100 +1357,12 @@
 										</div>
 										<ul class="chfiv">
 											<li><a href="https://duckduckgo.com/?t=h_&q=logging+10+000+years+into+the+future+chapter+151&ia=web" target="_blank"><span class="fivchap">Ch. 150</span><span class="fivtime">01-09-2024</span></a></li>
-											<li><a href=""><span class="fivchap">Ch. 145</span><span class="fivtime">3 months</span></a></li>
+											<li><a><span class="fivchap">New Ch Every 2nd Day </span></a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 							<!-- 2'nd post -->
-							<div class="bs styletere stylefiv">
-								<div class="bsx">
-									<a href="manga/day-walker/index.html" title="Day Walker">
-										<div class="limit">
-											<div class="ply"></div>
-											<span class="type Manga"></span>
-											<img src="wp-content/uploads/covers/1633e43c-5130-4be1-9a78-ad86620eaa2d.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" loading="lazy" title="Day Walker" alt="Day Walker" width="1539" height="1998" />
-										</div>
-									</a>
-									<div class="bigor">
-										<div class="tt">
-											<a href="manga/day-walker/index.html" title="Day Walker">Day Walker</a>
-										</div>
-
-										<ul class="chfiv">
-											<li><a href="day-walker-chapter-10/index.html"><span class="fivchap">Ch. 10</span><span class="fivtime">6 hours</span></a></li>
-											<li><a href="day-walker-chapter-9/index.html"><span class="fivchap">Ch. 9</span><span class="fivtime">6 hours</span></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<!-- 3'rd post -->
-							<div class="bs styletere stylefiv">
-								<div class="bsx">
-
-									<a href="manga/god-of-blackfield/index.html" title="God of Blackfield">
-										<div class="limit">
-											<div class="ply"></div>
-											<span class="type Manhwa"></span>
-											<span class="colored"><i class="fas fa-palette"></i> Color</span>
-											<img src="wp-content/uploads/covers/god-of-blackfield.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" loading="lazy" title="God of Blackfield" alt="God of Blackfield" width="720" height="972" />
-										</div>
-									</a>
-									<div class="bigor">
-										<div class="tt">
-											<a href="manga/god-of-blackfield/index.html" title="God of Blackfield">God of Blackfield</a>
-										</div>
-
-
-									</div>
-								</div>
-							</div>
-							<div class="bs styletere stylefiv">
-								<div class="bsx">
-
-									<a href="manga/i-took-over-the-academy-with-a-single-sashimi-knife/index.html" title="I Took over The Academy With a Single Sashimi Knife">
-										<div class="limit">
-											<div class="ply"></div>
-											<span class="type Manhwa"></span>
-											<span class="colored"><i class="fas fa-palette"></i> Color</span>
-											<img src="wp-content/uploads/covers/i-took-over-the-academy-with-a-single-sashimi-knife.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" loading="lazy" title="I Took over The Academy With a Single Sashimi Knife" alt="I Took over The Academy With a Single Sashimi Knife" width="720" height="934" />
-										</div>
-									</a>
-									<div class="bigor">
-										<div class="tt">
-											<a href="manga/i-took-over-the-academy-with-a-single-sashimi-knife/index.html" title="I Took over The Academy With a Single Sashimi Knife">I Took over The Academy With a Single Sashimi Knife</a>
-										</div>
-
-										<ul class="chfiv">
-											<li><a href="i-took-over-the-academy-with-a-single-sashimi-knife-chapter-7/index.html"><span class="fivchap">Ch. 7</span><span class="fivtime">6 hours</span></a></li>
-											<li><a href="i-took-over-the-academy-with-a-single-sashimi-knife-chapter-6/index.html"><span class="fivchap">Ch. 6</span><span class="fivtime">6 hours</span></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="bs styletere stylefiv">
-								<div class="bsx">
-
-									<a href="manga/death-king-karnak/index.html" title="Death King Karnak">
-										<div class="limit">
-											<div class="ply"></div>
-											<span class="type Manhwa"></span>
-											<span class="colored"><i class="fas fa-palette"></i> Color</span>
-											<img src="wp-content/uploads/covers/death-king-karnak.jpg" class="ts-post-image wp-post-image attachment-post-thumbnail size-post-thumbnail" loading="lazy" title="Death King Karnak" alt="Death King Karnak" width="2000" height="2861" />
-										</div>
-									</a>
-									<div class="bigor">
-										<div class="tt">
-											<a href="manga/death-king-karnak/index.html" title="Death King Karnak">Death King Karnak</a>
-										</div>
-
-										<ul class="chfiv">
-											<li><a href="death-king-karnak-chapter-25/index.html"><span class="fivchap">Ch. 25</span><span class="fivtime">7 hours</span></a></li>
-											<li><a href="death-king-karnak-chapter-24/index.html"><span class="fivchap">Ch. 24</span><span class="fivtime">7 hours</span></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
 							<div class="bs styletere stylefiv">
 								<div class="bsx">
 
@@ -1504,11 +1381,11 @@
 
 										<ul class="chfiv">
 											<li><a href="swordmasters-youngest-son-chapter-127/index.html"><span class="fivchap">Ch. 127</span><span class="fivtime">19 hours</span></a></li>
-											<li><a href="swordmasters-youngest-son-chapter-126/index.html"><span class="fivchap">Ch. 126</span><span class="fivtime">1 week</span></a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
+							<!-- 3'rd post -->
 							<div class="bs styletere stylefiv">
 								<div class="bsx">
 
@@ -1655,36 +1532,13 @@
 				<div id="sidebar">
 					<div class="section">
 						<div class="releases">
-							<h3>Trending Lately</h3>
+							<h3>Planned</h3>
 						</div>
 						<div id="wpop-items">
 							<div class='serieslist'>
 								<ul>
 									<li>
 										<div class="ctr">1</div>
-										<div class="imgseries">
-											<a class="series" href="manga/the-novels-extra-remake/index.html" rel="18121">
-												<img src="wp-content/uploads/covers/the-novels-extra-remake.jpg" class="ts-post-image wp-post-image attachment-medium size-medium" loading="lazy" title="The Novel’s Extra (Remake)" alt="The Novel’s Extra (Remake)" width="720" height="1030" /> </a>
-										</div>
-										<div class="leftseries">
-											<h2>
-												<a class="series" href="manga/the-novels-extra-remake/index.html" rel="18121">The Novel’s Extra (Remake)</a>
-											</h2>
-											<span><b>Genres</b>: <a href="genres/action/index.html" rel="tag">Action</a>, <a href="genres/adventure/index.html" rel="tag">Adventure</a>, <a href="genres/drama/index.html" rel="tag">Drama</a>, <a href="genres/fantasy/index.html" rel="tag">Fantasy</a>, <a href="genres/school-life/index.html" rel="tag">School Life</a></span>
-											<div class="rt">
-												<div class="rating">
-													<div class="rating-prc">
-														<div class="rtp">
-															<div class="rtb"><span style="width:92%"></span></div>
-														</div>
-													</div>
-													<div class="numscore">9.2</div>
-												</div>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="ctr">2</div>
 										<div class="imgseries">
 											<a class="series" href="manga/the-greatest-estate-developer/index.html" rel="23003">
 												<img src="wp-content/uploads/covers/the-greatest-estate-developer.jpg" class="ts-post-image wp-post-image attachment-medium size-medium" loading="lazy" title="The Greatest Estate Developer" alt="The Greatest Estate Developer" width="800" height="1160" /> </a>
@@ -1707,7 +1561,7 @@
 										</div>
 									</li>
 									<li>
-										<div class="ctr">3</div>
+										<div class="ctr">2</div>
 										<div class="imgseries">
 											<a class="series" href="manga/trash-of-the-counts-family/index.html" rel="22945">
 												<img src="wp-content/uploads/covers/trash-of-the-counts-family.jpg" class="ts-post-image wp-post-image attachment-medium size-medium" loading="lazy" title="Trash of the Count’s Family" alt="Trash of the Count’s Family" width="1000" height="1431" /> </a>
@@ -1724,7 +1578,7 @@
 															<div class="rtb"><span style="width:92%"></span></div>
 														</div>
 													</div>
-													<div class="numscore">9.2</div>
+													<div class="numscore">3.2</div>
 												</div>
 											</div>
 										</div>
@@ -1733,12 +1587,9 @@
 							</div>
 						</div>
 					</div>
-					<!-- <script>
-						ts_popular_widget.run(1725185820);
-					</script> -->
 					<div class="section">
 						<div class="releases">
-							<h3>Fresh Arrivals</h3>
+							<h3>Dropped</h3>
 						</div>
 						<div class='serieslist'>
 							<ul>
